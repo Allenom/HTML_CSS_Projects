@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    font-family: monospace;
+}
+
+p {
+    margin-top: 10px;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+/* HEADER */
+
+.header {
+    background-color: rgb(94, 67, 29);
+    color: whitesmoke;
+}
+
+.head_columns {
+    padding: 20px 8px 20px 8px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80em;
+    display: flex;
+    align-items: center;
+}
+
+.head_avatar {
+    border-radius: 50%;
+}
+
+.head_name {
+    margin-left: 30px;
+}
+
+/* CONTENT */
+
+.main {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.section {
+    padding: 20px 8px 20px 8px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80em;
+    margin-bottom: 10px;
+}
+
+.exp_row {
+    display: flex;
+}
+
+.exp_column1 {
+    width: 12em;
+}
+
+.exp_column2 {
+    width: 65em;
+}
+
+.lang_section {
+    margin-bottom: 40px;
+}
+
+.lang_item:before {
+    content: "■";
+    margin-right: 1em;
+    color: rgb(178, 237, 126);
+}
+
+/* .lang_item {
+    list-style: square;
+} */
+
+/* FORM */
+
+.form {
+    background-color: rgb(178, 237, 126);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.form_section {
+    padding: 20px 8px 20px 8px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80em;
+    margin-bottom: 10px;
+}
+
+.form_subtitle {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.form_details {
+    display: flex;
+    justify-content: center;
+}
+
+.form_text {
+    text-align: start;
+}
+
+.form_mail {
+    margin-left: 30px;
+}
+
+.form_areas {
+    resize: none;
+    background: none;
+    outline: none;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom-width: 2px;
+    width: 23.7em;
+}
+
+.form_area_message {
+    width: 50em;
+}
+
+.form_button {
+    background-color: rgb(94, 67, 29);
+    color: whitesmoke;
+    padding: 1.5ch;
+    padding-left: 10ch;
+    padding-right: 10ch;
+    font-weight: bolder;
+}
+
+.form_button:hover {
+    background-color: rgb(70, 46, 11);
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: rgb(94, 67, 29);
+    color: whitesmoke;
+    text-align: center;
+}
+
+.foot_section {
+    padding: 20px 8px 20px 8px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80em;
+}
+
+.foot_subtitle {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.foot_contacts {
+    display: flex;
+    justify-content: space-around;
+}
+
+.foot_contact_link {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.foot_copyright {
+    color: wheat;
+    margin-top: 30px;
+}
